@@ -1,3 +1,6 @@
 # Programación Científica en Python
-## 2017-1
-Roberto Fuentes Z.
+
+## 2017-2
+
+* Roberto Fuentes Z.
+
