@@ -1,0 +1,21 @@
+         124 function calls (112 primitive calls) in 3.506 seconds
+
+   Ordered by: cumulative time
+   List reduced from 46 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    3.506    3.506 {built-in method builtins.exec}
+        1    0.003    0.003    3.506    3.506 <string>:2(<module>)
+        1    2.828    2.828    3.503    3.503 <ipython-input-2-177f652754f3>:21(lbp_histogram)
+        1    0.675    0.675    0.675    0.675 <ipython-input-14-99696d3fc760>:1(lbp_representation)
+        2    0.000    0.000    0.000    0.000 dispatcher.py:420(typeof_pyval)
+        2    0.000    0.000    0.000    0.000 typeof.py:22(typeof)
+        1    0.000    0.000    0.000    0.000 dispatcher.py:401(_search_new_conversions)
+        2    0.000    0.000    0.000    0.000 functools.py:744(wrapper)
+        2    0.000    0.000    0.000    0.000 typeof.py:190(_typeof_ndarray)
+        2    0.000    0.000    0.000    0.000 abstract.py:54(__call__)
+        1    0.000    0.000    0.000    0.000 context.py:473(install_possible_conversions)
+        2    0.000    0.000    0.000    0.000 npytypes.py:274(__init__)
+        1    0.000    0.000    0.000    0.000 dispatcher.py:409(<listcomp>)
+        2    0.000    0.000    0.000    0.000 abstract.py:42(_intern)
+        1    0.000    0.000    0.000    0.000 typeconv.py:31(set_compatible)
