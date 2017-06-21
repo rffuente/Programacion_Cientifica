@@ -1,0 +1,15 @@
+Timer unit: 1e-06 s
+
+Total time: 0.000126 s
+File: <ipython-input-2-521d5fe6e212>
+Function: H at line 2
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+     2                                           def H(posisiones,position_i,masas):
+     3         1            3      3.0      2.4      G = 6.67300e-11
+     4         1            0      0.0      0.0      sum = 0
+     5        51           24      0.5     19.0      for i in range(len(posisiones)):
+     6        50           34      0.7     27.0          if (posisiones[i] != position_i):
+     7        49           64      1.3     50.8              sum+= masas[i]/((posisiones[i] - position_i)**2)
+     8         1            1      1.0      0.8      return G*sum
